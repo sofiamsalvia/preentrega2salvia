@@ -14,9 +14,14 @@ header {
     padding: 20px 0;
 }
 
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
 .logo {
     width: 150px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 nav ul {
@@ -37,9 +42,10 @@ a {
 }
 
 main {
-    margin: 20px auto; 
+    margin: 20px auto;
     padding: 20px;
-    max-width: 800px; 
+    max-width: 800px;
+    text-align: center;
 }
 
 h1,
@@ -49,66 +55,20 @@ h2 {
     margin: 20px 0;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
 footer {
-    margin: 20px auto; 
+    margin: 20px auto;
     padding: 20px;
     border-top: 1px solid violet;
     text-align: center;
-}
-
-.contenedorfotos {
-    margin: 10px auto; 
-    border: 4px solid black;
-    border-radius: 10px;
-    max-width: 400px; 
-}
-
-.imgsirius2 {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.contenedorfotos {
-    background-color: black;
-    color: darkslategray;
-    text-align: center;
-    padding: 10px;
-    font-weight: bold;
-    font-size: 18px;
-    text-transform: uppercase;
-}
-
-.comentarios {
-    margin-top: 20px;
-}
-
-label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: black;
-}
-
-input,
-textarea {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
-.btnformulario {
-    background-color: rgb(183, 42, 188);
-    color: #1a1a1a;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 18px;
-    cursor: pointer;
-    margin-top: 10px;
-    text-transform: uppercase;
 }
